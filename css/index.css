@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+}   
+
+header{
+    font-size: 50px;
+    position: relative;
+    left: 500px;
+}
+
+nav{
+    margin: 5px;
+    padding: 20px;
+}
+
+nav a{
+    margin: 175px;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    right: 35px;
+}
+
+img{
+    width: 700px;
+    height: 400px;
+}
+
+#contenedor{
+    margin-top: 35px;
+    margin-left: -150px;
+    background-color: rgb(233, 16, 16);
+}
+
+#parrafo{
+    width: 300px;
+    position: absolute;
+    left: 550px;
+    bottom: 300px;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#Boton{
+    position: absolute;
+    left: 500px;
+    bottom: 250px;
+    background-color: blueviolet;
+    font-size: medium;
+    border-radius: 25px;
+}
+
+#Boton:hover{
+    background-color: rgb(3, 245, 56);
+}
